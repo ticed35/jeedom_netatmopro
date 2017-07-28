@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+    <id>netatmopro</id>
+    <name>Netatmo Pro</name>
+    <description>Plugin Netatmo (Sécurité, Météo, Energie, Air Care)</description>
+    <icon>fa fa-globe</icon>
+    <licence>AGPL</licence>
+    <author>Thomas Maby</author>
+    <installation>Aucune</installation>
+    <require>2.4</require>
+    <category>devicecommunication</category>
+</info>

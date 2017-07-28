@@ -1,0 +1,67 @@
+{
+    "name":"Optional indoor module",
+    "group":"Weather Station",
+    "configuration":{
+        "version":1,
+	"battery_type" : "2x1.5V (L)R03",
+        "scope":"read_station"
+    },
+    "commands":[{
+                "name": "Température",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "°C",
+                "logicalId": "Temperature"
+        },{
+                "name": "Humidité",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "%",
+                "logicalId": "Humidity"
+        },{
+                "name": "CO2",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "ppm",
+                "logicalId": "CO2"
+        },{
+                "name": "Batterie",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "%",
+                "logicalId": "battery_percent"
+        },{
+                "name": "Température (minimum)",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "°C",
+                "logicalId": "min_temp"
+        },{
+                "name": "Température (maximum)",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "°C",
+                "logicalId": "max_temp"
+        },{
+                "name": "Température (tendance)",
+                "type": "info",
+                "subtype": "string",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "",
+                "logicalId": "temp_trend"
+        }
+    ]
+}

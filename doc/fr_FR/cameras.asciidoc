@@ -1,0 +1,5 @@
+Il s'agit de deux caméras : une caméra intérieure (Welcome) et une caméra extérieure (Presence). + 
+La caméra intérieure est à reconnaissance faciale et permet de vous envoyer des notifications lorsque vos enfants ou parents sont rentrés. Cette caméra de sécurité vous prévient également quand elle détecte un inconnu. + 
+La caméra extérieure permet de distinguer les personnes, voitures et animaux. Elle vous alerte en temps réel si quelqu'un s'attarde près de chez vous, des véhicules empruntent votre allée ou des animaux se trouvent dans votre jardin...
+
+*(En cours d'intégration)*

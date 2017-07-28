@@ -1,0 +1,25 @@
+Une fois le plugin installé, il vous faut renseigner vos informations de connections. Ces informations sont liées à votre compte Netatmo (Nom d'utilisateur, Mot de passe) et ceux fournis par Netatmo à l'activation de l'API (application).
+
+=== Activation de l'API
+
+Pour activer l'API et ainsi récupérer les données de vos équipements, vous devez créer une application. Pour cette étape, il vous faut se connecter à l'adresse suivante :
+https://dev.netatmo.com/en-US/dev
+
+Cliquez ensuite sur le menu *'CREATE YOUR APP'*. Il vous sera alors demandé de vous identifier (Email/Password). Ces informations sont liées à votre compte Netatmo que vous avez créé pour activer votre équipement.
+
+Remplissez les champs *'App name'* et *'App Description'*. Le nom de l'application étant commun à tous les utilisateurs, il est possible qu'elle soit déjà utilisée. Dans ce cas, le message suivant apparaitra *'Application name already used. Please choose another name.'*. + 
+Cliquez sur le bouton *'CREATE AN APP.'*.
+
+Il vous faut alors récupérer les informations *'Client id'* et *'Client secret'* de la section *'TECHNICAL PARAMETERS'*. Ces 2 champs correspondent aux champs de même nom dans la configuration du plugin.
+
+=== Configuration du plugin
+
+La configuration du plugin est très simple et comporte 4 champs que sont le *'Client ID'*, le *'Client secret'*, le *'Nom d'utilisateur'* ainsi que le *'Mot de passe'*. Les deux premiers champs sont fournis par Netatmo lors de l'activation de l'API (voir section précédente) et les deux derniers champs sont ceux associés à votre compte Netatmo.
+Une fois les champs renseignés dans le formulaire, il ne reste plus qu'à cliquer sur le bouton *'Sauvegarder'*.
+
+=== Synchronisation des équipements
+
+La synchronisation des équipements est automatique en cliquant simplement sur l'icône *'Synchronisation'*.
+Au bout de quelques secondes précédemment suivi du message *'Synchronisation en cours'* puis *'Synchronisation réalisé avec succès'*, la page se rafraîchit et tous les équipements, quel que soit la ligne de produit, sont affichés.
+
+La configuration de chaque équipement est standard au design de Jeedom avec un onglet *'Equipement'* correspondant aux informations spécifiques de l'équipement ainsi qu'un onglet *'Commandes'* pour afficher toutes les commandes associées à cet équipement.

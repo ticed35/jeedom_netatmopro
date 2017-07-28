@@ -1,0 +1,1 @@
+C'est un module permettant d'obtenir un indice de confort calculé en fonction de la température de la pièce, l'humidité, le CO2 ainsi que l'environnement sonore.

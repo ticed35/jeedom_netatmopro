@@ -1,0 +1,67 @@
+{
+    "name":"Wind Gauge",
+    "group":"Weather Station",
+    "configuration":{
+        "version":1,
+	"battery_type" : "2x1.5V (L)R03",
+        "scope":"read_station"
+    },
+    "commands":[{
+                "name": "Vitesse du vent",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "km/h",
+                "logicalId": "WindStrength"
+        },{
+                "name": "Direction du vent",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "°",
+                "logicalId": "WindAngle"
+        },{
+                "name": "Rafales",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "km/h",
+                "logicalId": "GustStrength"
+        },{
+                "name": "Direction des rafales",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "°",
+                "logicalId": "GustAngle"
+        },{
+                "name": "Batterie",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "%",
+                "logicalId": "battery_percent"
+        },{
+                "name": "Vitesse du vent (maximum)",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "km/h",
+                "logicalId": "max_wind_str"
+        },{
+                "name": "Direction du vent (maximum)",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "°",
+                "logicalId": "max_wind_angle"
+        }
+    ]
+}

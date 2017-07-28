@@ -1,0 +1,3 @@
+C'est un thermostat permettant de régler son chauffage en fonction de ses habitudes de vie pour ne chauffer que lorsque c'est utile. Il peut prendre aussi en compte l'isolation de la maison et la température extérieure pour anticiper le démarrage du chauffage.
+
+*(En cours d'intégration)*

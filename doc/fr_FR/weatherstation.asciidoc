@@ -1,0 +1,109 @@
+C'est une station météo comportant au minimum un module intérieur et un module extérieur. Le module intérieur permet de récupérer les informations de température, humidité, pression, CO2 et bruit. + 
+Le module extérieur permet de récupérer les informations de température et d'humidité. + 
+3 types de modules supplémentaires peuvent être associés à cette station météo : un anémomètre, un pluviomètre ainsi que 'x' modules intérieur comparable au module extérieur.
+
+=== Module intérieur
+
+Le module intérieur est le coeur de la station météo. Il se connecte sur une prise de courant et reçoit à intervalle régulier les données des capteurs. Ces données sont régulièrement envoyés sur le site Netatmo par l'intermédiaire de votre connexion Wifi.
+
+La page de l'équipement permet d'afficher l'adresse MAC du module, le logiciel interne (firmware) ainsi que le signal Wifi. Voici un ordre d'échelle de la valeur du signal fourni par Netatmo :
+
+[width="60%",frame="topbot",options="header"]
+|======================
+|Wifi status | Signal quality
+|86          |Bad
+|71          |Average
+|56          |Good
+|======================
+
+Les commandes disponibles sous Jeedom sont les suivantes :
+
+- Température
+- CO2
+- Humidité
+- Sonomètre
+- Pression
+- Température (minimum et maximum)
+- Tendance (température et pression)
+
+=== Module extérieur
+
+Le module extérieur se connecte par signal radio à la station. Il est alimenté par 2 piles 1.5V (L)R03.
+
+La page de l'équipement permet d'afficher le numéro de série du module, le logiciel interne (firmware) ainsi que le signal radio et le pourcentage de la batterie. Voici un ordre d'échelle de la valeur du signal fourni par Netatmo :
+
+[width="60%",frame="topbot",options="header"]
+|======================
+|Radio status | Signal quality
+|90           | Low
+|60           | Highest
+|======================
+
+Les commandes disponibles sous Jeedom sont les suivantes :
+
+- Température
+- Humidité
+- Batterie
+- Température (minimum et maximum)
+- Tendance (température)
+
+=== Anémomètre
+
+L'anémomètre se connecte par signal radio à la station. Il est alimenté par 2 piles 1.5V (L)R03.
+
+La page de l'équipement permet d'afficher le numéro de série du module, le logiciel interne (firmware) ainsi que le signal radio et le pourcentage de la batterie. Voici un ordre d'échelle de la valeur du signal fourni par Netatmo :
+
+[width="60%",frame="topbot",options="header"]
+|======================
+|Radio status | Signal quality
+|90           | Low
+|60           | Highest
+|======================
+
+Les commandes disponibles sous Jeedom sont les suivantes :
+
+- Vent (vitesse et direction)
+- Rafales (vitesse et direction)
+- Batterie
+- Maximum (vitesse et direction du vent)
+
+=== Pluviomètre
+
+Le pluviomètre se connecte par signal radio à la station. Il est alimenté par 2 piles 1.5V (L)R03.
+
+La page de l'équipement permet d'afficher le numéro de série du module, le logiciel interne (firmware) ainsi que le signal radio et le pourcentage de la batterie. Voici un ordre d'échelle de la valeur du signal fourni par Netatmo :
+
+[width="60%",frame="topbot",options="header"]
+|======================
+|Radio status | Signal quality
+|90           | Low
+|60           | Highest
+|======================
+
+Les commandes disponibles sous Jeedom sont les suivantes :
+
+- Pluviométrie
+- Batterie
+- Pluviométrie (vitesse et direction du vent)
+
+=== Module additionnel
+
+Le module additionnel se connecte par signal radio à la station. Il est alimenté par 2 piles 1.5V (L)R03.
+
+La page de l'équipement permet d'afficher le numéro de série du module, le logiciel interne (firmware) ainsi que le signal radio et le pourcentage de la batterie. Voici un ordre d'échelle de la valeur du signal fourni par Netatmo :
+
+[width="60%",frame="topbot",options="header"]
+|======================
+|Radio status | Signal quality
+|90           | Low
+|60           | Highest
+|======================
+
+Les commandes disponibles sous Jeedom sont les suivantes :
+
+- Température
+- Humidité
+- CO2
+- Batterie
+- Température (minimum et maximum)
+- Tendance (température)

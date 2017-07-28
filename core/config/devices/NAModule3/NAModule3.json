@@ -1,0 +1,43 @@
+{
+    "name":"Rain Gauge",
+    "group":"Weather Station",
+    "configuration":{
+        "version":1,
+	"battery_type" : "2x1.5V (L)R03",
+        "scope":"read_station"
+    },
+    "commands":[{
+                "name": "Pluviométrie",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "mm/h",
+                "logicalId": "Rain"
+        },{
+                "name": "Batterie",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "%",
+                "logicalId": "battery_percent"
+        },{
+                "name": "Pluviométrie (24h)",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "mm",
+                "logicalId": "sum_rain_24"
+        },{
+                "name": "Pluviométrie (1h)",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 0,
+                "unite": "mm",
+                "logicalId": "sum_rain_1"
+        }
+    ]
+}

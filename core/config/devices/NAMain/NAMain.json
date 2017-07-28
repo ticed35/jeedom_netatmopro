@@ -1,0 +1,82 @@
+{
+    "name":"Base station",
+    "group":"Weather Station",
+    "configuration":{
+        "version":1,
+        "scope":"read_station"
+    },
+    "commands":[{
+                "name": "Température",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+		"isHistorized": 0,
+                "unite": "°C",
+		"logicalId": "Temperature"
+        },{
+                "name": "CO2",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+		"isHistorized": 0,
+                "unite": "ppm",
+		"logicalId": "CO2"
+	}, {
+                "name": "Humidité",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+		"isHistorized": 0,
+                "unite": "%",
+		"logicalId": "Humidity"
+        }, {
+                "name": "Sonomètre",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+		"isHistorized": 0,
+                "unite": "dB",
+		"logicalId": "Noise"
+        }, {
+                "name": "Pression",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+		"isHistorized": 0,
+                "unite": "mb",
+		"logicalId": "Pressure"
+        }, {
+                "name": "Température (minimum)",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+		"isHistorized": 0,
+                "unite": "°C",
+		"logicalId": "min_temp"
+        }, {
+                "name": "Température (maximum)",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+		"isHistorized": 0,
+                "unite": "°C",
+		"logicalId": "max_temp"
+        }, {
+                "name": "Température (tendance)",
+                "type": "info",
+                "subtype": "string",
+                "isVisible": 1,
+		"isHistorized": 0,
+                "unite": "",
+		"logicalId": "temp_trend"
+        }, {
+                "name": "Pression (tendance)",
+                "type": "info",
+                "subtype": "string",
+                "isVisible": 1,
+		"isHistorized": 0,
+                "unite": "",
+		"logicalId": "pressure_trend"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+Netatmo est une start-up française spécialisée dans les objets connectés. Ses différents produits, dans la maison connectée et dans le bien être, lui ont valu différents prix (CES awards).
+
+Il existe actuellement 4 lignes de produits :
+
+=== Weather Station
+
+C'est une station météo comportant au minimum un module intérieur et un module extérieur. Le module intérieur permet de récupérer les informations de température, humidité, pression, CO2 et bruit. + 
+Le module extérieur permet de récupérer les informations de température et d'humidité. + 
+3 types de modules supplémentaires peuvent être associés à cette station météo : un anémomètre, un pluviomètre ainsi que 'x' modules intérieur comparable au module extérieur.
+
+=== Healthy Home Coach
+
+C'est un module permettant d'obtenir un indice de confort calculé en fonction de la température de la pièce, l'humidité, le CO2 ainsi que l'environnement sonore.
+
+=== Thermostat
+
+C'est un thermostat permettant de régler son chauffage en fonction de ses habitudes de vie pour ne chauffer que lorsque c'est utile. Il peut prendre aussi en compte l'isolation de la maison et la température extérieure pour anticiper le démarrage du chauffage.
+
+=== Cameras
+
+Il s'agit de deux caméras : une caméra intérieure (Welcome) et une caméra extérieure (Presence). + 
+La caméra intérieure est à reconnaissance faciale et permet de vous envoyer des notifications lorsque vos enfants ou parents sont rentrés. Cette caméra de sécurité vous prévient également quand elle détecte un inconnu. + 
+La caméra extérieure permet de distinguer les personnes, voitures et animaux. Elle vous alerte en temps réel si quelqu'un s'attarde près de chez vous, des véhicules empruntent votre allée ou des animaux se trouvent dans votre jardin...

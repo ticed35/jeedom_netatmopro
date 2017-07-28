@@ -1,0 +1,30 @@
+= Netatmo Pro
+
+Ce plugin a pour but de gérer l'écosystème Netatmo en un seul plugin afin d'en faciliter la configuration et avoir ainsi une vision globale de tous ces équipements.
+
+== Description
+include::presentation.asciidoc[]
+
+'''
+== Configuration
+include::configuration.asciidoc[]
+
+'''
+== Weather Station
+include::weatherstation.asciidoc[]
+
+'''
+== Healthy Home Coach
+include::healthyhomecoach.asciidoc[]
+
+'''
+== Thermostat
+include::thermostat.asciidoc[]
+
+'''
+== Cameras
+include::cameras.asciidoc[]
+
+'''
+== FAQ
+include::faq.asciidoc[]
