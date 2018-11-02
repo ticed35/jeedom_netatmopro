@@ -1,0 +1,13 @@
+{
+	"id" : "netatmopro",
+	"name" : "Netatmo Pro",
+	"description" : "Plugin Netatmo (Sécurité, Météo, Energie, Air Care)",
+	"licence" : "AGPL",
+	"author" : "Thomas Maby",
+	"require" : "2.4",
+	"category" : "devicecommunication",
+	"mobile" : "openzwave",
+	"maxDependancyInstallTime" : 45,
+	"changelog" : "https://github.com/ticed35/jeedom_netatmopro/blob/master/doc/fr_FR/index.asciidoc",
+	"documentation" : "https://github.com/ticed35/jeedom_netatmopro/blob/master/doc/fr_FR/index.asciidoc"
+}
